@@ -19,7 +19,9 @@ const Header = () => {
       <header>
         <div>
           <ul>
+
             <NavLink to="/">Main</NavLink>
+            
             <NavLink to="/post">Post</NavLink>
           </ul>
         </div>

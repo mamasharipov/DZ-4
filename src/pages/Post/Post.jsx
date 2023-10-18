@@ -37,9 +37,13 @@ const Post = () => {
         posts.map((post) => (
           <div className={classes.posts} key={`post-${post.id}`}>
             <div className={classes.post}>
+
               <h1>{post.id}</h1>
+
               <h2>{post.title}</h2>
+
               <p>{getShortValue(post.body, post.id)}</p>
+              
             </div>
             <button onClick={() => onMoreClick(post.id)}>Details</button>
           </div>
